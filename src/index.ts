@@ -1,10 +1,10 @@
 import { html } from 'lit';
 import { MobxLitElement } from '@adobe/lit-mobx';
 import { customElement } from 'lit/decorators.js';
-import { store } from './src/store/store';
-import { service } from './src/services/services';
+import { store } from './store/store';
+import { service } from './services/services';
 import { indexStyles } from './index.styles';
-import './src/components/car-card/car-card';
+import './components/car-card/car-card';
 import { classMap } from 'lit/directives/class-map.js';
 
 @customElement('car-app')

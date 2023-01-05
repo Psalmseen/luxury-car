@@ -14,7 +14,8 @@
   ],
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build"
+    "build": "tsc && vite build",
+    "preview": "npm run build && vite preview"
   },
   "dependencies": {
     "axios": "^1.2.2",
