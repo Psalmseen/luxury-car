@@ -29,3 +29,11 @@ jobs:
         run: npm i
       - name: build
         run: npm run build
+
+  nginx:
+    name: Setup Nginx
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: start the docker with nginx
+        run: docker-compose up
